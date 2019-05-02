@@ -7,7 +7,7 @@ header("content-type: text/xml");
 
 $response = new MessagingResponse();
 $response->message(
-    "Awesome-sauce!"
+    "Awesome-Sauce!"
 );
 
 echo $response;
