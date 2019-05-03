@@ -29,7 +29,7 @@ $filename = $account_sid."_sms.csv";
 header("Content-Type: application/csv");
 header("Content-Disposition: attachment; filename={$filename}");
 
-/* Write headers */
+/* Write header */
 $fields = array( 'SMS Message SID', 'From', 'To', 'Date Sent', 'Status', 'Direction', 'Price', 'Body' );
 echo '"'.implode('","', $fields).'"'."\n";
 
